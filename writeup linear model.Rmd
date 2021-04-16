@@ -111,3 +111,9 @@ predict(model.3,newdata,interval="prediction")
 ```
 
 SIMS=-5.43+0.037* ARM+0.024* GRIP
+
+```{r}
+anova(model.1,model.3)
+```
+
+Because of the P-value we reject the null hypothesis.
