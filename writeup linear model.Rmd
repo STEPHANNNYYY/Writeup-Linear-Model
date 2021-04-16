@@ -58,6 +58,6 @@ summary.lm(model.1)
 basicNN + geom_point() + geom_smooth(method=lm)
 ``` 
 
-
-
+The equation that we get is SIMS explained by ARM is 
+SIMS=-4.1+.0545*ARM
 
