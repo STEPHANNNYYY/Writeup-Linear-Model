@@ -45,5 +45,11 @@ basicNN + geom_point()
 cor(SIMS~ARM,data=data)
 ```
   
+  # Inferential  (Build linear model)
+  
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
 
 
